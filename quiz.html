@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Quiz - Revolução Farroupilha</title>  
+    <link rel="stylesheet" href="styles.css">  
+    <script src="script.js" defer></script>  
+</head>  
+<body>  
+    <header>  
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="personagens.html">Personagens</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+        <h1>Quiz: Teste Seus Conhecimentos sobre a Revolução Farroupilha</h1>  
+    </header>  
+    
+    <main>  
+        <section class="quiz-container">  
+            <div id="quiz">  
+                <form id="quiz-form">  
+                    <!-- Perguntas do Quiz -->  
+                    <div class="question" data-question-id="1">  
+                        <p>1. Em que ano começou a Revolução Farroupilha?</p>  
+                        <label><input type="radio" name="q1" value="1835"> 1835</label><br>  
+                        <label><input type="radio" name="q1" value="1840"> 1840</label><br>  
+                        <label><input type="radio" name="q1" value="1850"> 1850</label><br>  
+                    </div>  
+
+                    <div class="question" data-question-id="2">  
+                        <p>2. Qual foi a principal causa da Revolução Farroupilha?</p>  
+                        <label><input type="radio" name="q2" value="Impostos"> Aumento de Impostos</label><br>  
+                        <label><input type="radio" name="q2" value="Liberdade"> Busca por Liberdade</label><br>  
+                        <label><input type="radio" name="q2" value="Terras"> Conflito por Terras</label><br>  
+                    </div>  
+
+                    <div class="question" data-question-id="3">  
+                        <p>3. Qual era o nome do líder militar mais importante da Revolução?</p>  
+                        <label><input type="radio" name="q3" value="Giovanni Battista"> Giovanni Battista</label><br>  
+                        <label><input type="radio" name="q3" value="Bento Gonçalves"> Bento Gonçalves</label><br>  
+                        <label><input type="radio" name="q3" value="David Canabarro"> David Canabarro</label><br>  
+                    </div>  
+
+                    <div class="question" data-question-id="4">  
+                        <p>4. Qual foi o principal resultado da Revolução Farroupilha?</p>  
+                        <label><input type="radio" name="q4" value="Tratado de Paz"> Tratado de Paz</label><br>  
+                        <label><input type="radio" name="q4" value="República Rio-Grandense"> República Rio-Grandense</label><br>  
+                        <label><input type="radio" name="q4" value="Extinção das Ferrovias"> Extinção das Ferrovias</label><br>  
+                    </div>  
+
+                    <div class="question" data-question-id="5">  
+                        <p>5. Quando terminou a Revolução Farroupilha?</p>  
+                        <label><input type="radio" name="q5" value="1845"> 1845</label><br>  
+                        <label><input type="radio" name="q5" value="1850"> 1850</label><br>  
+                        <label><input type="radio" name="q5" value="1851"> 1851</label><br>  
+                    </div>  
+
+                    <button type="submit">Enviar Respostas</button>  
+                </form>  
+            </div>  
+            
+            <div id="result" class="hidden">  
+                <h2>Resultado</h2>  
+                <p id="score"></p>  
+                <button id="restart-quiz">Reiniciar Quiz</button>  
+            </div>  
+        </section>  
+    </main>  
+
+    <footer>  
+        <p>&copy; 2024 Revolução Farroupilha | Todos os direitos reservados</p>  
+    </footer>  
+</body>  
+</html>

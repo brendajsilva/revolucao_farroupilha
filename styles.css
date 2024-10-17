@@ -1,0 +1,74 @@
+body {  
+    background-image: url('images.png'); /* Substitua pelo caminho da sua imagem */  
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo */  
+    background-position: center; /* Centraliza a imagem no fundo */  
+    background-repeat: no-repeat; /* Evita que a imagem se repita */  
+    opacity: 0.9; /* Ajusta a opacidade do fundo. Ajuste conforme necessário */  
+}  
+
+header, main, footer {  
+    background-color: rgba(255, 255, 255, 0.547); /* Fundo branco com opacidade para melhorar a legibilidade */  
+    padding: 20px; /* Adiciona um pouco de espaço interno */  
+    border-radius: 8px; /* Adiciona cantos arredondados */  
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+.personagem, .evento {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
